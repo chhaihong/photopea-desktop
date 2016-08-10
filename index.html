@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Photopea</title>
+    <link rel="icon" sizes="256x256" href="./assets/img/thumb256.png">
+    <link rel="image_src"  type="image/png"  href="./assets/img/thumb256.png" />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+      ._i {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://www.photopea.com" class="_i">
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
