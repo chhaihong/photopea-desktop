@@ -14,7 +14,7 @@ function createWindow () {
     width: 1280, 
     height: 860, 
     title: "Photopea",
-    icon: __dirname + '/assets/img/thumb256.png'
+    icon: __dirname + '/assets/img/thumb256.png',
     backgroundColor: '#e0e0e0'
   });
 

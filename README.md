@@ -1,2 +1,4 @@
-# photopea-desktop
-unofficial desktop app
+# Photopea desktop
+unofficial desktop app by electron.
+
+- npm install && npm start
